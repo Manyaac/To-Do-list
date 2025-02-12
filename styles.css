@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #0A0A0A; /* Dark background */
+  color: #E0E0E0; /* Light text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #1E1E1E; /* Dark container */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2); /* Neon glow */
+  width: 800px;
+  max-width: 90%;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  color: #00FFCC; /* Neon teal */
+  margin-bottom: 20px;
+}
+
+.date-picker {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.date-picker label {
+  font-weight: 500;
+  margin-right: 10px;
+  color: #00FFCC; /* Neon teal */
+}
+
+.date-picker input {
+  padding: 8px;
+  border: 1px solid #00FFCC; /* Neon teal */
+  border-radius: 5px;
+  background-color: #1E1E1E; /* Dark input */
+  color: #E0E0E0; /* Light text */
+  font-family: 'Roboto Mono', monospace;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#taskInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #00FFCC; /* Neon teal */
+  border-radius: 5px;
+  background-color: #1E1E1E; /* Dark input */
+  color: #E0E0E0; /* Light text */
+  font-family: 'Roboto Mono', monospace;
+}
+
+#addTaskBtn {
+  padding: 10px 20px;
+  background-color: #00FFCC; /* Neon teal */
+  color: #0A0A0A; /* Dark text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
+  transition: background-color 0.3s ease;
+}
+
+#addTaskBtn:hover {
+  background-color: #00CCAA; /* Darker neon teal */
+}
+
+.todo-container {
+  display: flex;
+  gap: 20px;
+}
+
+.pending-tasks, .completed-tasks {
+  flex: 1;
+  background-color: #1E1E1E; /* Dark container */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 255, 255, 0.1); /* Neon glow */
+}
+
+h2 {
+  font-family: 'Orbitron', sans-serif;
+  color: #00FFCC; /* Neon teal */
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.completed-tasks ul {
+  text-decoration: line-through;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
